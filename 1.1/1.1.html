@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IFE_1.1</title>
+</head>
+<body>
+
+    <!--Created by W_YH on 2016/3/14.-->
+    <!--要求-->
+    <!--了解HTML的定义、概念、发展简史-->
+    <!--掌握常用HTML标签的含义、用法-->
+    <!--能够基于设计稿来合理规划HTML文档结构-->
+    <!--理解语义化，合理地使用HTML标签来构建页面-->
+    <a name="#top" ></a>
+    <h1>百度IFE任务一：零基础HTML编码</h1>
+    <p>
+        本作业提交于 <time>20160315</time>，
+        我们来自<abbr title="Chongqing University of Posts and Telecommunications">CQUPT</abbr> 。
+    </p>
+
+    <!--注重文字介绍，包含：粗体、斜体、小体、段落、句子、标题、-->
+    <section class="fontStyle">
+        <div>&bigstar;粗体、斜体、小体、章节、句子、标题</div>
+        <h2>文字样式</h2>
+        <p><b>重要说明: </b> <em>百度前端技术学院 </em>的课程任务是由百度前端工程师专为对前端不同掌握程度的同学设计。我们尽力保证课程内容的质量以及学习难度的合理性，<i>但即使如此，真正决定课程效果的，还是你的每一次思考和实践。</i></p>
+        <small>
+            <span>在学习这些资料时，要多思考，多提问，多质疑。相信通过和小伙伴们的交流，能让你的学习事半功倍。</span>
+            <del> 不动手、不思考、是永远没有显著提高的.  </del>
+            <em>  一定要动手！只有这样才能达到 <strong>N<sup>N</sup></strong>的功效，否则就会变成<strong>log<sub>N</sub>N+1</strong></em>.
+        </small>
+    </section>
+
+<br>
+<hr>
+
+    <!--注重表格、表单、有序列表、无序列表、下拉框、单选框、复选框、文本框、按钮、-->
+    <section class="tab">
+        <div>&bigstar;表格、表单、有序列表、无序列表、下拉框、单选框、复选框、文本框、按钮</div>
+        <div>表格</div>
+        <table border="1px" cellspacing="0" cellpadding="0">
+            <caption>表格标题</caption>
+                <thead>
+                <tr>
+                    <th>参赛队名</th>
+                    <th>队员人数</th>
+                    <th>是否在校</th>
+                    <th>是否同城</th>
+                    <th>年龄分布</th>
+                </tr>
+                </thead>
+            <tbody>
+            <tr>
+                <td>2016</td>
+                <td>3</td>
+                <td>1</td>
+                <td>1</td>
+                <td>24-26</td>
+            </tr>
+            <tr>
+                <td>百度IFE1</td>
+                <td>4</td>
+                <td>0</td>
+                <td>1</td>
+                <td>21-25</td>
+            </tr>
+            <tr>
+                <td>百度IFE2</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+                <td>23-25</td>
+            </tr>
+            <tr>
+                <td>百度IFE3</td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td>23-24</td>
+            </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <div>这是一个FORM表单</div>
+        <form>
+            <fieldset>
+                <legend>好友申请</legend>
+                <label for="name">姓名：</label>
+                <input type="text" maxlength="4" id="name" required autofocus>
+                <br>
+
+                性别：  <label for="man">男:</label>
+                       <input type="radio" id="man" name="M_W" >
+                        <label for="woman">女:</label>
+                       <input type="radio" id="woman" name="M_W" >
+                <br>
+
+                       <label for="age">年龄：</label>
+                       <input type="number" step="1" value="20" min="18" max="28" id="age">
+                <br>
+
+                <label for="city">城市：</label>
+                    <select id="city">
+                        <option value="河南">河南</option>
+                        <option value="河北">河北</option>
+                        <option value="湖南">湖南</option>
+                        <option value="湖北">湖北</option>
+                        <option value="广东">广东</option>
+                        <option value="广西">广西</option>
+                        <option value="山西">山西</option>
+                        <option value="山东">山东</option>
+                    </select>
+                <br>
+
+                爱好：
+                    <label for="ym">羽毛球</label><input type="checkbox" value="羽毛球" id="ym">
+                    <label for="qd">前端</label><input type="checkbox" value="前端" id="qd">
+                    <label for="Jht">Java后台</label><input type="checkbox" value="Java后台" id="Jht">
+                    <label for="sty">晒太阳</label> <input type="checkbox" value="晒太阳" id="sty">
+                <br>
+
+                <label for="descript">自我描述：</label><textarea id="descript"></textarea>
+                <br>
+
+                申请日期：<input type="datetime-local" value="" >
+                <br>
+
+                <input type="reset">&nbsp;&nbsp;<button type="submit" autofocus>提交</button>
+
+
+            </fieldset>
+        </form>
+        <br>
+        <br>
+        <div>有序、无序列表</div>
+        <ol type="1" start="5">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ol>
+        <ul type="circle">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </section>
+
+<br>
+<hr>
+
+    <!--图片、音频、视频、链接、特殊字符-->
+    <section class="linkAndOther">
+        <div>
+            <div>图片</div>
+            <div><img src="media/ife1.png" alt="1"></div>
+            <div><img src="media/ife2.png" alt="2"></div>
+            <div><img src="media/ife3.png" alt="3"></div>
+            <div><img src="media/ife4.png" alt="4"></div>
+            <div><img src="media/ife5.png" alt="5"></div>
+            <div><img src="media/ife6.png" alt="6"></div>
+            <div><img src="media/ife5.png" alt="5"></div>
+            <div><img src="media/ife3.png" alt="3"></div>
+            <div><img src="media/ife1.png" alt="1"></div>
+        </div>
+
+        <div>
+            <audio src="media/背景乐.wav"  controls ></audio>
+        </div>
+
+        <div>&copy;2016 &nbsp; &nbsp; &bigstar; &nbsp; </div>
+    </section>
+
+<br>
+<hr>
+
+    <a href="mailto:857292988@qq.com">联系我</a>
+    <br>
+    <a href="#top" >点此跳转至首部 &UpArrowBar;</a>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task_1_1_1</title>
+</head>
+<body>
+	<div id="navBar">
+		<h1>网站一级标题</h1>
+		<ul>
+			<li><a href="">导航链接一</a></li>
+			<li><a href="">导航链接二</a></li>
+			<li><a href="">导航链接三</a></li>
+			<li><a href="">导航链接四</a></li>
+		</ul>
+	</div>
+	
+	<div id="context">
+		<!-- 第一篇文章开始 -->
+		<div id="first">
+			<h1>文章一级标题</h1>
+			<h2>文章二级标题</h2>
+			<span>文章作者  文章发布时间</span>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<br>
+			换行了<br>
+			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+			这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+			</p>
+
+			<img src="https://www.baidu.com/img/baidu_jgylogo3.gif">
+
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,这是一个很长很长的段落。换行了<br>
+			这是一个很长很长的段落，这是一个很长很长的段落,这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落,这是一个很长很长的段落，<a href="http://ife.baidu.com" target="_black">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>
+			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,这是一个很长很长的段落。
+			</p>
+		</div>
+		<!-- 第一篇文章结束 -->
+		
+		<!-- 另一篇文章开始 -->
+		<div id="next">
+			<h1>另一篇文章一级标题</h1>
+			<h2>文章二级标题</h2>
+			<span>文章作者  文章发布时间</span>
+			<p>
+			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+			这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+			</p>
+
+			<img src="https://www.baidu.com/img/baidu_jgylogo3.gif">
+
+			<ul>
+				<li>列表项目一</li>
+				<li>列表项目二</li>
+				<li>列表项目三</li>
+			</ul>
+		</div>
+		<!-- 另一篇文章结束 -->
+		
+		<!-- 图片开始 -->
+		<div id="picture">
+			<h2>图片</h2>
+
+			<dl>
+				<dd>好看的图片</dd>
+				<dd><img src="https://www.baidu.com/img/baidu_jgylogo3.gif"><dd>
+
+				<dd>好看的图片</dd>
+				<dd><img src="https://www.baidu.com/img/baidu_jgylogo3.gif"><dd>
+
+				<dd>好看的图片</dd>
+				<dd><img src="https://www.baidu.com/img/baidu_jgylogo3.gif"><dd>
+
+				<dd>好看的图片</dd>
+				<dd><img src="https://www.baidu.com/img/baidu_jgylogo3.gif"><dd>
+				<dd>好看的图片</dd>
+				<dd><img src="https://www.baidu.com/img/baidu_jgylogo3.gif"><dd>
+			</dl>
+		</div>
+		<!-- 图片结束 -->
+
+		<!-- 最后一篇文章开始 -->	
+		<div id="last">
+			<h1>最后一篇文章一级标题</h1>
+			<h2>文章二级标题</h2>
+			<span>文章作者 文章发表时间</span>
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+
+			<p>下面是一个表格</p>
+			<table border="1">
+				<tbody>
+					
+					<tr>
+						<th>表头</th>
+						<th>表头</th>
+						<th>表头</th>
+					</tr>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+
+					<tr>
+						<td>总计</td>
+						<td colspan="2">1000</td>
+						
+					</tr>
+				</tbody>
+			</table>	
+		</div>
+		<!-- 最后一篇文章结束 -->
+
+		<!-- 侧栏开始 -->
+		<div id="SideBar">
+		<h2>这以后是个侧栏，这是侧栏标题</h2>
+		<h2>侧栏注册窗口标题</h2>
+		<form>
+			请输入邮件地址：<input type="email" name="email" placeholder="请输入邮件地址"> </input><br>
+			邮箱地址请按要求格式输入<br>
+			请输入密码：<input type="password" name="password" placeholder="请输入密码"></input>
+			请重复输入密码：<input type="password" name="passwordAgain" placeholder="请重复输入密码"></input><br>
+			密码请为6-16为英文字母<br><br>
+			性别：<input type="radio" value="男" name="identity">男</input>
+			<input type="radio" value="女" name="identity">女</input>
+			城市：
+			<select name="city">
+				<option value="北京">北京</option>
+				<option value="上海">上海</option>
+				<option value="成都">成都</option>
+				<option value="重庆" >重庆</option>	
+			</select>
+			爱好：
+			 <input type="checkbox" name="hobby" value="sport">运动</input>
+			 <input type="checkbox" name="hobby" value="art">艺术</input>
+			 <input type="checkbox" name="hobby" value="science">科学</input>
+			个人描述：<textarea name="description" placeholder="输入你的个人描述"></textarea>
+			<input type="submit" value="确认提交"></input>
+
+		</form>
+		</div>
+		<!-- 侧栏结束 -->
+		
+	</div>
+	<footer><p>版权所有©</p></footer>
+</body>
+</html>

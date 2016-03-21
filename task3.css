@@ -1,0 +1,65 @@
+html,body,div{
+	padding: 0px;
+	border: 0;
+	margin: 0px;
+}
+
+.main{
+	background: #EEEEEE;
+	border: 1px solid #999999;
+	width: 1310px;
+	height: 452px;
+	margin: 20px auto;
+}
+/*左边*/
+.left{
+	background: #ffffff;
+	border:1px solid #999999;
+	width: 200px;
+	position: absolute;
+	left: 41px; 
+	top: 41px;
+}
+.left .team{
+    background: #DEDEDE;
+    border: 1px solid #999999;
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    float: left;
+}
+.left .teamname{
+	width: 38px;
+	height: 80px;
+	margin-top: 20px;
+	float: left;
+}
+/*右侧*/
+.right{
+	background-color: #ffffff;
+	border: 1px solid #999999;
+	width: 162PX;
+	position: absolute;
+	right: 41px;
+	top: 41px;
+}
+.r1{
+    background-color: #DEDEDE;
+    border:1px solid #999999;
+    margin: 20px;
+    padding: 20px;
+}
+.r2,.r3,.r4{
+	background-color: #DEDEDE;
+    border:1px solid #999999;
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+}
+.center{
+	background-color: #ffffff;
+	border: 1px solid #999999;
+	margin-left: 241px;
+	margin-right: 202px;
+	margin-top: 20px;
+}
